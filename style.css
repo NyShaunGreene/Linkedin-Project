@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.container {
+    padding: 2em;
+}
+
+.top-navigation {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.top-navigation-links {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.top-navigation-left a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    gap: 1em;
+}
+
+.landingpage-body {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.landingpage-body-left {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+.landingpage-body-left h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.landingpage-body-left p {
+    width: 560px;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.landingpage-body-right img {
+    width: 550px;
+}
+
+.landingpage-body-aboutme {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.landingpage-body-aboutme-left { 
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+.landingpage-body-aboutme-left h1 {
+    font-size: 40px;
+    font-weight: bold; 
+}
+
+.landingpage-body-aboutme-left p {
+    width: 560px;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.landingpage-body-aboutme-right img {
+    width: 800px;
+    padding-left: 5em;
+}
+
+.landingpage-body-resume {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.landingpage-body-resume-center {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
